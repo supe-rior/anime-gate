@@ -107,4 +107,69 @@ footer {
 footer p {
     margin:0;
     margin-bottom:15px;
+
+}
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    /* Navbar stacks nicely */
+    .menubar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menubar ul li {
+        margin: 8px 0;
+    }
+
+    /* Text resizing */
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    /* Forms fit screen */
+    form {
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    /* Buttons full width */
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Lists readable */
+    ul, ol {
+        padding-left: 20px;
+    }
 }
